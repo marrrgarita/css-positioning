@@ -24,6 +24,49 @@ figure {
 }
 
 .film {
-  width: 50%;
+  width: 80%;
   margin: 40px auto;
+  border: 1px solid #666;
+  padding: 10px;
+  overflow: auto;
+  position: relative;
+}
+
+.film-poster {
+  float: left;
+  width: 30%;
+}
+.film img {
+  width: 100%;
+}
+
+.fa-clock-o {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  color: red;
+}
+
+.film-details {
+  float: left;
+  width: 70%;
+  padding-left: 10px;
+}
+
+.action-like {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
+.fa-heart {
+  color: red;
+}
+
+.fa-bookmark {
+  color: grey;
+}
+
+.fa-star {
+  color: yellow;
 }
